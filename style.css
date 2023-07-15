@@ -1,0 +1,71 @@
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 300px;
+    background-color: yellowgreen;
+    border: 1px solid black;
+    border-radius: 3%;
+    box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
+}
+
+.screens {
+    color: azure;
+    height: 150px;
+    margin: 10px;
+    background-color: darkslategray;
+    border: 1px solid black;
+    border-radius: 3%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.prev-screen, .screen {
+    height: 60px;
+    padding: 6px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.screen {
+    font-size: 30px;
+}
+
+.row-1, .row-2, .row-3, .row-4, .row-5 {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+.buttons {
+    margin-bottom: 5px;
+}
+
+button {
+    height: 50px;
+    width: 60px;
+    border: 1px solid black;
+    margin: 2px;
+    border-radius: 5%;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.active {
+    background-color: skyblue;
+}
+
+#clear, #delete {
+    width: 130px;
+}
